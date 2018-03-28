@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:background="@drawable/bg_app"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context="CharActivity">
+
+    <com.github.mikephil.charting.charts.ScatterChart
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/ScatterChart">
+
+    </com.github.mikephil.charting.charts.ScatterChart>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Este gráfico muestra todos los datos de Temperatura/Humedad capturados durante el día de todos los sensores activos."
+        android:textSize="20dp"
+        />
+
+
+</LinearLayout>

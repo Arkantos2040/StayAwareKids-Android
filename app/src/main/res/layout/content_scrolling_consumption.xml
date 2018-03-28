@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingConsumptionActivity"
+    tools:showIn="@layout/scrolling_electricity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Consumo actual en pesos: "
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:layout_column="0"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$"
+                    android:textSize="14dp"
+                    android:layout_column="1"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lblMontokWh"
+                    android:text="cargando.."
+                    android:layout_column="2"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Admin. del Servicio: "
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:layout_column="0"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$"
+                    android:textSize="14dp"
+                    android:layout_column="1"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lblMontoAdminServ"
+                    android:text="cargando.."
+                    android:layout_column="2"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Transporte de la electricidad: "
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:layout_column="0"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$"
+                    android:textSize="14dp"
+                    android:layout_column="1"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lblMontoTranskwh"
+                    android:text="cargando.."
+                    android:layout_column="2"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOTAL A PAGAR: "
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_column="0"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_column="1"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:id="@+id/lblMontoPago"
+                    android:text="cargando.."
+                    android:textSize="20dp"
+                    android:layout_column="2"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Promedio últimos 3 meses"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:layout_column="0"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="$"
+                    android:textSize="14dp"
+                    android:layout_column="1"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtConsumoPromedio"
+                    android:text="cargando.."
+                    android:textSize="14dp"
+                    android:layout_column="2"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Meta de Consumo en pesos: "
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:layout_column="0"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:layout_column="1"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtConsumoEsperado"
+                    android:inputType="number"
+                    android:text="0"
+                    android:textSize="14dp"
+                    android:layout_column="2"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:layout_gravity="right"
+            android:onClick="GuardarMetaConsumo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gráfica de consumo diario del mes: "
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:paddingBottom="15dp"/>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/LineChart">
+
+        </com.github.mikephil.charting.charts.LineChart>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gráfica de consumo anual: "
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:paddingBottom="15dp"/>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/BarGraph">
+
+        </com.github.mikephil.charting.charts.BarChart>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

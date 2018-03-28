@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "928095553289",
+    "firebase_url": "https://jardin-e019a.firebaseio.com",
+    "project_id": "jardin-e019a",
+    "storage_bucket": "jardin-e019a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928095553289:android:95767e0784d46476",
+        "android_client_info": {
+          "package_name": "cl.m4uro.stayawarekids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928095553289-bqch63k6jvtlnsvsb8g31578nlskvtdu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.m4uro.stayawarekids",
+            "certificate_hash": "5b3031ae66566ead633cc334cf17377737826919"
+          }
+        },
+        {
+          "client_id": "928095553289-aetab53f91voshjdo48fgdili4oh9k61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJwDW6V7De1-GVLjLPGDnCWN6EoYWwPWI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928095553289-aetab53f91voshjdo48fgdili4oh9k61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

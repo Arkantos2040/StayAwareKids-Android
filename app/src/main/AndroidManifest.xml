@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cl.m4uro.stayawarekids">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AjustesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VerNinosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VerNinoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScrollingConfigurationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScrollingLocationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FotosNinoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CamaraMenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main"
+            android:screenOrientation="portrait" />
+        <activity android:name="ScrollingAlertHistoryActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CharActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".PlayerActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Alerta"></activity>
+        <activity android:name=".ScrollingLocationActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="DuplicateActivity" />
+        <activity android:name=".ScrollingVentHistoryActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ScrollingAlertHistoryActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="DuplicateActivity" />
+            tools:ignore="DuplicateActivity" />
+    </application>
+
+</manifest>

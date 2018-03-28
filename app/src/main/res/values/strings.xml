@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">StayAwareKids</string>
+
+    <string name="welcome_message">¡Bienvenido a StayAware Kids!</string>
+    <string name="btn_forgot_password">¿Olvidó su contraseña?</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="btn_register">Registrarme</string>
+    <string name="tip1">Recuerde ventilar las habitaciones abriendo las ventanas una hora al día</string>
+    <string name="tip2">Cuando cocine, mantenga abiertas las ventanas</string>
+    <string name="tip3">Ventile el baño después de ducharse</string>
+    <string name="tip4">No calefaccione en exceso, La parafina y el gas liberan mucha humedad en el ambiente</string>
+    <string name="tip5">No coloque recipientes con agua sobre las estufas</string>
+    <string name="tip6">Evite secar ropa dentro de la casa o departamento. Hágalo en la logia (lavadero) o habilite, en acuerdo con sus vecinos, un lugar en los espacios comunes, debidamente protegido</string>
+    <string name="tip7">Trate de no planchar ropa húmeda en habitaciones sin ventilación</string>
+    <string name="tip8">No riegue en exceso plantas de interior</string>
+    <string name="tip9">Si es posible, instale en su cocina una campana con extracción hacia elexterior a través de la loggia</string>
+    <string name="tip10">Ventile la vivienda todos los días</string>
+    <string name="tip11">Limpie canales bajadas de aguas lluvias antes de la llegada del invierno</string>
+    <string name="tip12">Revise filtraciones en la techumbre y repare antes de la llegada de las lluvias</string>
+    <string name="tip13">Limpie periódicamente los sifones de lavaplatos y lavatorios porque allí se acumulan residuos</string>
+    <string name="tip14">No bote elementos como algodón, toallas higiénicas, papeles desechableso restos de comida, en los sanitarios o lavaplatos</string>
+    <string name="tip15">Use rejilla en todos los desagües</string>
+    <string name="tip16">No use el receptáculo de la ducha como lavadero de ropa</string>
+    <string name="tip17">Repase con silicona los contornos de los receptáculos de la ducha. Hágalo, al menos, dos veces al año</string>
+    <string name="tip18">No golpee ni sacuda las cañerías</string>
+    <string name="tip19">En la parte inferior de las ventanas hay una canaleta que recibe el chorreo de aguas de condensación y permite su salida al exterior. Manténgala limpia, cuide que no se tape y no cambie la forma de abrir las ventanas, delo contrario, el agua escurrirá al interior</string>
+    <string name="tip20">Evite utilizar el entretecho como bodega</string>
+    <string name="tip21">Evite transitar por el entretecho, ya que se puede deteriorar la aislación térmica, lana mineral, lana de vidrio o poliestireno expandido (plumavit)</string>
+    <string name="tip22">Realice por lo menos una vez al año una revisión del aislamiento térmico del entretecho, verificando que está correctamente colocada</string>
+    <string name="title_activity_scrolling_configuration">Configuraciones</string>
+    <string name="title_activity_scrolling_vent_history">Historial de Ventilación</string>
+    <string name="title_activity_scrolling_electricity">Consumo Eléctrico</string>
+</resources>

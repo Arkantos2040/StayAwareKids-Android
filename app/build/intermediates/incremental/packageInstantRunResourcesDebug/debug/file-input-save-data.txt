@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Mar 25 13:26:27 CLST 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\bishop\\Desktop\\StayAwareKids\\app\\build\\intermediates\\assets\\debug
+0.path=fonts/weathericons-regular-webfont.ttf
+0.set=ASSET
+count=1
