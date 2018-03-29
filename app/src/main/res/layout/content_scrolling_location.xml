@@ -307,7 +307,7 @@
                     android:layout_height="wrap_content"
                     android:text="Y"
                     android:backgroundTint="@color/primary_dark"
-                    android:textColor="@android:color/background_light"
+                    android:textColor="@android:color/black"
                     android:id="@+id/rbAnd"/>
 
                 <RadioButton
@@ -315,7 +315,7 @@
                     android:layout_height="wrap_content"
                     android:text="O"
                     android:backgroundTint="@color/primary_dark"
-                    android:textColor="@android:color/background_light"
+                    android:textColor="@android:color/black"
                     android:layout_marginLeft="20dp"
                     android:id="@+id/rbOr"/>
 
